@@ -1,0 +1,14 @@
+source.c: In function ‘main’:
+source.c:24:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(A);
+  ^
+source.c:25:2: warning: implicit declaration of function ‘flushall’ [-Wimplicit-function-declaration]
+  flushall();
+  ^
+source.c:26:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(B);
+  ^
+/tmp/ccq3PlC0.o: In function `main':
+source.c:(.text.startup+0xa): warning: the `gets' function is dangerous and should not be used.
+source.c:(.text.startup+0x11): undefined reference to `flushall'
+collect2: error: ld returned 1 exit status

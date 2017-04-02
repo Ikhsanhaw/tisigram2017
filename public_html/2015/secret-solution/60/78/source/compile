@@ -1,0 +1,9 @@
+source.c: In function ‘main’:
+source.c:16:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(input);
+  ^
+source.c:20:16: warning: comparison between pointer and integer
+  while(input[i]!=NULL)
+                ^
+/tmp/ccHnHi6d.o: In function `main':
+source.c:(.text.startup+0xa): warning: the `gets' function is dangerous and should not be used.

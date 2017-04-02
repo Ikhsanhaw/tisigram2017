@@ -1,0 +1,8 @@
+source.c: In function ‘main’:
+source.c:36:41: error: ‘a’ undeclared (first use in this function)
+         if(count > 30 &&  current > 30*(a-b) )
+                                         ^
+source.c:36:41: note: each undeclared identifier is reported only once for each function it appears in
+source.c:36:43: error: ‘b’ undeclared (first use in this function)
+         if(count > 30 &&  current > 30*(a-b) )
+                                           ^

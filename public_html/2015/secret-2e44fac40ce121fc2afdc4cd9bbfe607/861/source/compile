@@ -1,0 +1,10 @@
+source.c: In function ‘main’:
+source.c:14:79: error: expected ‘;’ before ‘}’ token
+  if(S.x==L.x&&S.y==L.y){printf("tepat pada titik tengah arena pertandingan\n")}
+                                                                               ^
+source.c:19:49: error: expected ‘;’ before ‘}’ token
+  printf("tepat pada batas arena pertandingan\n")}
+                                                 ^
+source.c:20:45: error: expected ‘;’ before ‘}’ token
+  else{printf("di luar arena pertandingan\n")}
+                                             ^

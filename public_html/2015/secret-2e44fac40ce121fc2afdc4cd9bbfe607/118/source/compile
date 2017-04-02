@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
+  strrev(karakter);
+  ^
+source.c: At top level:
+source.c:12:7: error: conflicting types for ‘strrev’
+ char *strrev(char *str){
+       ^
+source.c:7:2: note: previous implicit declaration of ‘strrev’ was here
+  strrev(karakter);
+  ^

@@ -1,0 +1,23 @@
+source.c: In function ‘cmpfunc’:
+source.c:6:12: error: ‘longint’ undeclared (first use in this function)
+  return (*(longint*)a - *(long int*)b);
+            ^
+source.c:6:12: note: each undeclared identifier is reported only once for each function it appears in
+source.c:6:20: error: expected expression before ‘)’ token
+  return (*(longint*)a - *(long int*)b);
+                    ^
+source.c: In function ‘main’:
+source.c:42:37: warning: passing argument 4 of ‘qsort’ from incompatible pointer type
+    qsort(tab1, n, sizeof(long int), cmpfunc);
+                                     ^
+In file included from source.c:2:0:
+/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t’ but argument is of type ‘long int (*)(const void *, const void *)’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+             ^
+source.c:43:37: warning: passing argument 4 of ‘qsort’ from incompatible pointer type
+    qsort(tab2, m, sizeof(long int), cmpfunc);
+                                     ^
+In file included from source.c:2:0:
+/usr/include/stdlib.h:765:13: note: expected ‘__compar_fn_t’ but argument is of type ‘long int (*)(const void *, const void *)’
+ extern void qsort (void *__base, size_t __nmemb, size_t __size,
+             ^

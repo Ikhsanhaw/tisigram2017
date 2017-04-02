@@ -1,0 +1,10 @@
+source.c: In function ‘main’:
+source.c:8:5: warning: implicit declaration of function ‘pangkat’ [-Wimplicit-function-declaration]
+     printf("%d", pangkat(n)%2);
+     ^
+source.c:9:5: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
+     getch();
+     ^
+/tmp/ccQZNom9.o: In function `main':
+source.c:(.text.startup+0x4c): undefined reference to `getch'
+collect2: error: ld returned 1 exit status

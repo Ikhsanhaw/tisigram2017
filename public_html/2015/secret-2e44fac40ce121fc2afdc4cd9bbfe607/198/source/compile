@@ -1,0 +1,4 @@
+source.c: In function ‘vokal’:
+source.c:19:2: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+  return ((tolower(i)== 'a') || (tolower(i)== 'i') || (tolower(i)== 'u') || (tolower(i)== 'e') || (tolower(i)== 'o'));
+  ^

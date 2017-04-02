@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:8:1: warning: implicit declaration of function ‘buatgunung’ [-Wimplicit-function-declaration]
+ buatgunung(n);
+ ^
+source.c: At top level:
+source.c:13:6: warning: conflicting types for ‘buatgunung’
+ void buatgunung(int n){
+      ^
+source.c:8:1: note: previous implicit declaration of ‘buatgunung’ was here
+ buatgunung(n);
+ ^

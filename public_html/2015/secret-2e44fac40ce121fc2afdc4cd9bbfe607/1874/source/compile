@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:13:25: warning: iteration 5u invokes undefined behavior [-Waggressive-loop-optimizations]
+                     if(A[w]<= 10000){S[v] = S[v]+A[w];}
+                         ^
+source.c:12:15: note: containing loop
+               for(w = 1; w<=6; w++){
+               ^

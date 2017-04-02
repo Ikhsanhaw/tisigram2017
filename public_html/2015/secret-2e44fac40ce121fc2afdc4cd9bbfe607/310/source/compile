@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:10:7: warning: comparison between pointer and integer
+   if(a==NULL){
+       ^

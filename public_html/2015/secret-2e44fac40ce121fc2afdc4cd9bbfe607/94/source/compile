@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:11:3: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+   if (tolower(huruf) == vokal[i]){
+   ^

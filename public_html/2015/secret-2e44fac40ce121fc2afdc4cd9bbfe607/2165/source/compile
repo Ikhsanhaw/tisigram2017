@@ -1,0 +1,3 @@
+source.c:4:21: warning: integer constant is so large that it is unsigned
+ const long long o = 18446744073709551615;
+                     ^

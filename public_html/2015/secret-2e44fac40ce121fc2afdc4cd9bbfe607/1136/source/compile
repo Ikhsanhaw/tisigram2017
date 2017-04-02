@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:4: warning: implicit declaration of function ‘fpb’ [-Wimplicit-function-declaration]
+    c=fpb(a,b);
+    ^

@@ -1,0 +1,77 @@
+source.c: In function ‘main’:
+source.c:11:2: warning: implicit declaration of function ‘ceknilai’ [-Wimplicit-function-declaration]
+  hasil = hasil+ceknilai(A[i]);
+  ^
+source.c:14:2: warning: implicit declaration of function ‘skillguild’ [-Wimplicit-function-declaration]
+  printf("%c",skillguild(hasil));
+  ^
+source.c: At top level:
+source.c:18:5: error: conflicting types for ‘ceknilai’
+ int ceknilai(char C){
+     ^
+source.c:18:1: note: an argument type that has a default promotion can’t match an empty parameter name list declaration
+ int ceknilai(char C){
+ ^
+source.c:11:16: note: previous implicit declaration of ‘ceknilai’ was here
+  hasil = hasil+ceknilai(A[i]);
+                ^
+source.c: In function ‘ceknilai’:
+source.c:20:14: error: expected expression before ‘{’ token
+   case 'S' = {return 16; break;}
+              ^
+source.c:21:14: error: expected expression before ‘{’ token
+   case 'A' = {return 13; break;}
+              ^
+source.c:22:14: error: expected expression before ‘{’ token
+   case 'B' = {return 10; break;}
+              ^
+source.c:23:14: error: expected expression before ‘{’ token
+   case 'C' = {return 7; break;}
+              ^
+source.c:24:14: error: expected expression before ‘{’ token
+   case 'D' = {return 4; break;}
+              ^
+source.c:25:14: error: expected expression before ‘{’ token
+   case 'E' = {return 1; break;}
+              ^
+source.c: At top level:
+source.c:28:6: error: conflicting types for ‘skillguild’
+ char skillguild(int A){
+      ^
+source.c:14:14: note: previous implicit declaration of ‘skillguild’ was here
+  printf("%c",skillguild(hasil));
+              ^
+source.c: In function ‘skillguild’:
+source.c:30:11: error: expected expression before ‘=’ token
+   case 1: = { return 'E'; break;}
+           ^
+source.c:31:22: warning: multi-character character constant [-Wmultichar]
+   case 2: = { return 'E+'; break;}
+                      ^
+source.c:32:22: warning: multi-character character constant [-Wmultichar]
+   case 3: = { return 'D-'; break;}
+                      ^
+source.c:34:22: warning: multi-character character constant [-Wmultichar]
+   case 5: = { return 'D+'; break;}
+                      ^
+source.c:35:22: warning: multi-character character constant [-Wmultichar]
+   case 6: = { return 'C-'; break;}
+                      ^
+source.c:37:22: warning: multi-character character constant [-Wmultichar]
+   case 8: = { return 'C+'; break;}
+                      ^
+source.c:38:22: warning: multi-character character constant [-Wmultichar]
+   case 9: = { return 'B-'; break;}
+                      ^
+source.c:40:23: warning: multi-character character constant [-Wmultichar]
+   case 11: = { return 'B+'; break;}
+                       ^
+source.c:41:23: warning: multi-character character constant [-Wmultichar]
+   case 12: = { return 'A-'; break;}
+                       ^
+source.c:43:23: warning: multi-character character constant [-Wmultichar]
+   case 14: = { return 'A+'; break;}
+                       ^
+source.c:44:23: warning: multi-character character constant [-Wmultichar]
+   case 15: = { return 'S-'; break;}
+                       ^

@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:20:2: error: ‘Fahrenheit’ undeclared (first use in this function)
+  Fahrenheit = (celcius * 1.8) + 32;
+  ^
+source.c:20:2: note: each undeclared identifier is reported only once for each function it appears in

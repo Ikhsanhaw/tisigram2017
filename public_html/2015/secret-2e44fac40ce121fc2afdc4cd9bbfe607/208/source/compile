@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:9:5: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     i=strlen(word);
+     ^
+source.c:9:7: warning: incompatible implicit declaration of built-in function ‘strlen’
+     i=strlen(word);
+       ^

@@ -1,0 +1,4 @@
+source.c:1:20: fatal error: stidio.h: No such file or directory
+ #include <stidio.h>
+                    ^
+compilation terminated.

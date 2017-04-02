@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:4:22: error: ‘true’ undeclared (first use in this function)
+    int a,b,c,j=0,t = true;
+                      ^
+source.c:4:22: note: each undeclared identifier is reported only once for each function it appears in

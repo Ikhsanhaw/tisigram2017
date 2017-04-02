@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  int ans = abs(x1-x2)+abs(x2-y2);
+  ^

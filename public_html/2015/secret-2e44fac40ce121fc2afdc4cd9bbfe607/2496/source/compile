@@ -1,0 +1,8 @@
+source.c: In function ‘hitung_hari’:
+source.c:23:17: error: expected ‘,’ or ‘;’ before ‘n’
+       int m = 0 n;
+                 ^
+source.c:33:14: error: ‘n’ undeclared (first use in this function)
+              n = m;
+              ^
+source.c:33:14: note: each undeclared identifier is reported only once for each function it appears in

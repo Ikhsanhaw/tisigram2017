@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:8:11: warning: overflow in implicit constant conversion [-Woverflow]
+     max = pow(2,64);
+           ^

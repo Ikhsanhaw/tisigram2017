@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:11: warning: implicit declaration of function ‘range’ [-Wimplicit-function-declaration]
+           if(A[i] <= range()) printf("false\n");
+           ^

@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:19:5: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
+     getch();
+     ^
+/tmp/cc6JKm0v.o: In function `main':
+source.c:(.text.startup+0x4d): undefined reference to `getch'
+collect2: error: ld returned 1 exit status

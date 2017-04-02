@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:8:2: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+  huruf = tolower(huruf);
+  ^

@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:17:3: warning: iteration 2u invokes undefined behavior [-Waggressive-loop-optimizations]
+   printf("%d\n", A[i]);
+   ^
+source.c:16:2: note: containing loop
+  for(i=0;i<3;i++)
+  ^

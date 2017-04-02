@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:25:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  jarak_titik=sqrt((abs(titik.x-titik_pusat.x)*abs(titik.x-titik_pusat.x))+(abs(titik.y-titik_pusat.y)*abs(titik.y-titik_pusat.y)));
+  ^

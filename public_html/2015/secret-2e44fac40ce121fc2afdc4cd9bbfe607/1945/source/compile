@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:7:5: warning: implicit declaration of function ‘pangkat’ [-Wimplicit-function-declaration]
+     printf("%d", pangkat(n)%2);
+     ^

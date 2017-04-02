@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:18:27: warning: iteration 5u invokes undefined behavior [-Waggressive-loop-optimizations]
+              count=count+A[j];
+                           ^
+source.c:16:11: note: containing loop
+           for(j=1; j<=6; j++)
+           ^

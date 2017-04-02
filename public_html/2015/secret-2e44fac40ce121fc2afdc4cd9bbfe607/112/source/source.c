@@ -1,0 +1,10 @@
+#include<stdio.h>
+#include<math.h>
+
+int main(){
+	long x1,y1,x2,y2;
+	scanf("%li %li %li %li", &x1, &y1, &x2, &y2);
+	int jarak = abs(x2-x1)+abs(y2-y1);
+	printf("%li\n", jarak);
+	return 0;
+}

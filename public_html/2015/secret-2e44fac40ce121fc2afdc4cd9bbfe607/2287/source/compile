@@ -1,0 +1,3 @@
+source.c:2:2: error: invalid preprocessing directive #inlude
+ #inlude <string.h>
+  ^

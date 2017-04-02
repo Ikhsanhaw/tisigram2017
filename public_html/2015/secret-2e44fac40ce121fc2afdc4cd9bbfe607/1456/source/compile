@@ -1,0 +1,42 @@
+source.c: In function ‘main’:
+source.c:15:8: warning: passing argument 1 of ‘fgets’ makes pointer from integer without a cast
+  fgets(text, 60, stdin);
+        ^
+In file included from source.c:1:0:
+/usr/include/stdio.h:622:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^
+source.c:16:8: warning: passing argument 1 of ‘fgets’ makes pointer from integer without a cast
+  fgets(find, 60, stdin);
+        ^
+In file included from source.c:1:0:
+/usr/include/stdio.h:622:14: note: expected ‘char * restrict’ but argument is of type ‘char’
+ extern char *fgets (char *__restrict __s, int __n, FILE *__restrict __stream)
+              ^
+source.c:22:31: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast
+  for(i = 0; i < (int) (strlen(text) - 1); i++) {
+                               ^
+In file included from source.c:3:0:
+/usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘char’
+ extern size_t strlen (const char *__s)
+               ^
+source.c:25:30: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast
+   for(j=0; j < (int) (strlen(find) - 1); j++) {
+                              ^
+In file included from source.c:3:0:
+/usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘char’
+ extern size_t strlen (const char *__s)
+               ^
+source.c:26:12: error: subscripted value is neither array nor pointer nor vector
+    if( find[j] == text[i+j] ) {
+            ^
+source.c:26:23: error: subscripted value is neither array nor pointer nor vector
+    if( find[j] == text[i+j] ) {
+                       ^
+source.c:31:29: warning: passing argument 1 of ‘strlen’ makes pointer from integer without a cast
+   if(letterFound == (strlen(find) - 1)) {
+                             ^
+In file included from source.c:3:0:
+/usr/include/string.h:399:15: note: expected ‘const char *’ but argument is of type ‘char’
+ extern size_t strlen (const char *__s)
+               ^

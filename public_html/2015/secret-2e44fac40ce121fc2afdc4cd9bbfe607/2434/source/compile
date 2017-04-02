@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:7:16: error: expected expression before ‘>’ token
+        while(H=>1){
+                ^

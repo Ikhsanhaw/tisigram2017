@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:30:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  jarak = sqrt((abs(p.x-l.x)*abs(p.x-l.x))+(abs(p.y-l.y)*abs(p.y-l.y)));
+  ^

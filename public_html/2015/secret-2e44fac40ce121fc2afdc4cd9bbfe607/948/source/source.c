@@ -1,0 +1,60 @@
+#include<stdio.h>
+main(){
+	int i;float tot=0;
+	char q[4];
+	for(i=0;i<3;++i){
+		scanf("\n%c",&q[i]);
+		if(q[i]=='S')tot+=64;else tot+=(int)(q[i]);
+	}
+	//printf("%d",tot);
+	tot/=3;
+	//printf("%d",tot);
+	if(tot==69.0){
+		printf("E\n");
+	}else
+	if(tot>68.5){
+		printf("E+\n");
+	}else
+	if(tot>68.0){
+		printf("D-\n");
+	}else
+	if(tot==68.0){
+		printf("D\n");
+	}else
+	if(tot>67.5){
+		printf("D+\n");
+	}else
+	if(tot>67.0){
+		printf("C-\n");
+	}else
+	if(tot==67){
+		printf("C\n");
+	}else
+	if(tot>66.5){
+		printf("C+\n");
+	}else
+	if(tot>66.0){
+		printf("B-\n");
+	}else
+	if(tot==66){
+		printf("B\n");
+	}else
+	if(tot>65.5){
+		printf("B+\n");
+	}else
+	if(tot>65.0){
+		printf("A-\n");
+	}else
+	if(tot==65.0){
+		printf("A\n");
+	}else
+	if(tot>64.5){
+		printf("A+\n");
+	}else
+	if(tot>64.0){
+		printf("S-\n");
+	}else
+	if(tot==64.0){
+		printf("S\n");
+	}
+}

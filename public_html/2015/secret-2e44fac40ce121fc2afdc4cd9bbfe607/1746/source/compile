@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:19:1: error: expected declaration or statement at end of input
+ }
+ ^

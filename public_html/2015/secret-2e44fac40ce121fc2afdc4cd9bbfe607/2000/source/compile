@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:12:5: error: expected ‘;’ before ‘for’
+     for(p<=X)
+     ^

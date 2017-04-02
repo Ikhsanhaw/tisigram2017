@@ -1,0 +1,4 @@
+source.c: In function ‘cekpal’:
+source.c:16:4: warning: implicit declaration of function ‘cekcekpal’ [-Wimplicit-function-declaration]
+    pal = pal + cekcekpal(B, l);
+    ^

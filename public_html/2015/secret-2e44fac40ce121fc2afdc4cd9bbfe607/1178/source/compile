@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:9:15: error: expected ‘)’ before ‘a’
+  printf("%d\n"a-b);
+               ^
+source.c:10:15: error: expected ‘)’ before ‘a’
+  printf("%d\n"a*b);
+               ^

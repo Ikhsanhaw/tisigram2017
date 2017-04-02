@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:16:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(input);
+  ^
+source.c:17:2: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
+  printf("%s\n", strrev(input));
+  ^
+/tmp/ccaWuEwW.o: In function `main':
+source.c:(.text.startup+0x8): warning: the `gets' function is dangerous and should not be used.
+source.c:(.text.startup+0x12): undefined reference to `strrev'
+collect2: error: ld returned 1 exit status

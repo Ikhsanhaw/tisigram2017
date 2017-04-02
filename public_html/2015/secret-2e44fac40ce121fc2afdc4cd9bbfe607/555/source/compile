@@ -1,0 +1,9 @@
+source.c:5:1: warning: return type defaults to ‘int’
+ main(){
+ ^
+source.c: In function ‘main’:
+source.c:12:3: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+   gets(q);
+   ^
+/tmp/ccEkxOFS.o: In function `main':
+source.c:(.text.startup+0x29): warning: the `gets' function is dangerous and should not be used.

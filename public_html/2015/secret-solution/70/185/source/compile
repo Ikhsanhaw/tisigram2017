@@ -1,0 +1,6 @@
+source.c: In function ‘main’:
+source.c:21:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(angka);
+  ^
+/tmp/ccAUSft5.o: In function `main':
+source.c:(.text.startup+0x53): warning: the `gets' function is dangerous and should not be used.

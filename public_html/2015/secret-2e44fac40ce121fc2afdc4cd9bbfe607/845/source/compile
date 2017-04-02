@@ -1,0 +1,8 @@
+source.c: In function ‘main’:
+source.c:11:3: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+   gets(kata);
+   ^
+source.c:13:17: error: ‘i’ undeclared (first use in this function)
+    int x = kata[i];
+                 ^
+source.c:13:17: note: each undeclared identifier is reported only once for each function it appears in

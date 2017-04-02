@@ -1,0 +1,12 @@
+source.c: In function ‘main’:
+source.c:8:3: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+   gets(kata);
+   ^
+source.c:10:3: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+   i = strlen(kata)-1;
+   ^
+source.c:10:7: warning: incompatible implicit declaration of built-in function ‘strlen’
+   i = strlen(kata)-1;
+       ^
+/tmp/ccAjZHGj.o: In function `main':
+source.c:(.text.startup+0x10): warning: the `gets' function is dangerous and should not be used.

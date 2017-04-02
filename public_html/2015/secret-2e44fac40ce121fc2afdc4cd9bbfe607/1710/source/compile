@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:7:12: error: ‘angka’ undeclared (first use in this function)
+     jumlah=angka[0];
+            ^
+source.c:7:12: note: each undeclared identifier is reported only once for each function it appears in

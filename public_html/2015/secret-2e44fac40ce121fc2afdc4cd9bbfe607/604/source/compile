@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:11:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  hasil = abs(koor[0] - koor[2]) + abs(koor[1] - koor[3]);
+  ^

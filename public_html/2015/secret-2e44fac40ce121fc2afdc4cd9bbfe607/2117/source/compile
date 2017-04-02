@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:16:34: warning: integer constant is so large that it is unsigned
+             if(atof(nilai[i]) <= 18446744073709551615){
+                                  ^

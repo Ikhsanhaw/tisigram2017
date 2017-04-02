@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:7:10: error: ‘i’ undeclared (first use in this function)
+     for (i=1; i<=n; i++)
+          ^
+source.c:7:10: note: each undeclared identifier is reported only once for each function it appears in

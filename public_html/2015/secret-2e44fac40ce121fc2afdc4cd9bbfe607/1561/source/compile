@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:9:24: error: expected ‘)’ before ‘;’ token
+     for (i=0; i<=n; i++;){
+                        ^

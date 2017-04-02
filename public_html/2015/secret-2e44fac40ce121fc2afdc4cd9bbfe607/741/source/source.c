@@ -1,0 +1,15 @@
+#include <stdio.h>
+int main(){
+	int x1, x2, y1, y2;
+	scanf("%d %d %d %d",&x1,&y1,&x2,&y2);
+	int x = x1 - x2;
+	int y = y1 - y2;
+	if (x < 0){
+		x = 0 - x;
+	}
+	if (y < 0){
+		y = 0 - y;
+	}
+	printf("%d\n",x + y);
+	return 0;
+}

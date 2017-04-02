@@ -1,0 +1,6 @@
+source.c: In function ‘main’:
+source.c:18:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(instruksi);
+  ^
+/tmp/ccBQVEgF.o: In function `main':
+source.c:(.text.startup+0x1f): warning: the `gets' function is dangerous and should not be used.

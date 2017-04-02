@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:2: error: expected ‘}’ before ‘else’
+  else {
+  ^

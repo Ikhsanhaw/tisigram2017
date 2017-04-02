@@ -1,0 +1,8 @@
+source.c: In function ‘main’:
+source.c:4:6: error: expected identifier or ‘(’ before ‘int’
+      int a;
+      ^
+source.c:7:10: error: ‘a’ undeclared (first use in this function)
+      for(a=0;a<i;a++){
+          ^
+source.c:7:10: note: each undeclared identifier is reported only once for each function it appears in

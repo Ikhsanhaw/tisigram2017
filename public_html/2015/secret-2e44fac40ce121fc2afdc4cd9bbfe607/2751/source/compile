@@ -1,0 +1,4 @@
+source.c: In function ‘rek1’:
+source.c:4:2: warning: implicit declaration of function ‘rek2’ [-Wimplicit-function-declaration]
+  if (N>0) return rek1(N-1)+rek2(N);
+  ^

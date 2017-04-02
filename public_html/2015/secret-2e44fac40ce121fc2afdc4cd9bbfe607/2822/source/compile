@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:15:5: warning: implicit declaration of function ‘div’ [-Wimplicit-function-declaration]
+     y=div(x,101)+x%10;
+     ^

@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:8:2: warning: implicit declaration of function ‘ceil’ [-Wimplicit-function-declaration]
+  total = ceil(n/2) + ceil(n/3) + ceil(n/4);
+  ^
+source.c:8:10: warning: incompatible implicit declaration of built-in function ‘ceil’
+  total = ceil(n/2) + ceil(n/3) + ceil(n/4);
+          ^

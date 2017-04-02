@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:14:13: warning: implicit declaration of function ‘hitung’ [-Wimplicit-function-declaration]
+             hitung(l);
+             ^

@@ -1,0 +1,9 @@
+source.c: In function ‘main’:
+source.c:10:3: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+   gets(kemampuan[i]);
+   ^
+source.c:15:4: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+    if(strcmp(kemampuan[i],nilai[j]) == 0){
+    ^
+/tmp/cc1nWizA.o: In function `main':
+source.c:(.text.startup+0x34): warning: the `gets' function is dangerous and should not be used.

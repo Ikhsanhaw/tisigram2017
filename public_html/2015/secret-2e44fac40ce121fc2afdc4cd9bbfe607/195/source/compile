@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:16:2: warning: implicit declaration of function ‘printf’ [-Wimplicit-function-declaration]
+  printf("Halo, dunia!\n");
+  ^
+source.c:16:2: warning: incompatible implicit declaration of built-in function ‘printf’

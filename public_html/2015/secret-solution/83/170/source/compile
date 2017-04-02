@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:8:18: error: subscripted value is neither array nor pointer nor vector
+     scanf("%d",&A[i]);
+                  ^
+source.c:11:18: error: subscripted value is neither array nor pointer nor vector
+     printf("%c",A[i]);
+                  ^

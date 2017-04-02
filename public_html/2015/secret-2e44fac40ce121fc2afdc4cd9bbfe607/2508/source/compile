@@ -1,0 +1,12 @@
+source.c: In function ‘main’:
+source.c:8:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(A);
+  ^
+source.c:13:10: warning: iteration 30u invokes undefined behavior [-Waggressive-loop-optimizations]
+   if(m==A[i])
+          ^
+source.c:11:2: note: containing loop
+  for(i=0;i<=30;i++)
+  ^
+/tmp/cc8mVveS.o: In function `main':
+source.c:(.text.startup+0xa): warning: the `gets' function is dangerous and should not be used.

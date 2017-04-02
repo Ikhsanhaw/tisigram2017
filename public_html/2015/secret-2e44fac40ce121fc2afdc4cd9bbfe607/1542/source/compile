@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:7:9: error: ‘k’ undeclared (first use in this function)
+     for(k=1;k<=i,i++){
+         ^
+source.c:7:9: note: each undeclared identifier is reported only once for each function it appears in
+source.c:7:21: error: expected ‘;’ before ‘)’ token
+     for(k=1;k<=i,i++){
+                     ^
+source.c:10:1: error: expected declaration or statement at end of input
+ }
+ ^

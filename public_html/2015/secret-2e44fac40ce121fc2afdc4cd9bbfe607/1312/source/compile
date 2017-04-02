@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:14:2: warning: implicit declaration of function ‘tukar’ [-Wimplicit-function-declaration]
+  if(x<tukar(x)){
+  ^

@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:13:8: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+        prinf("%d",i);
+        ^
+source.c:14:11: error: expected ‘(’ before ‘else’
+        if else(B<=500){
+           ^

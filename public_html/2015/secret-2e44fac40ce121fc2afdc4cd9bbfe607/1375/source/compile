@@ -1,0 +1,12 @@
+source.c: In function ‘main’:
+source.c:13:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(text);
+  ^
+source.c:14:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(cari);
+  ^
+source.c:25:6: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+      if (toupper(cari[j]) == toupper(kata[k])){
+      ^
+/tmp/ccXR7BaT.o: In function `main':
+source.c:(.text.startup+0x21): warning: the `gets' function is dangerous and should not be used.

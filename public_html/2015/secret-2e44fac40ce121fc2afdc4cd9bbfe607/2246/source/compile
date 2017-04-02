@@ -1,0 +1,15 @@
+source.c: In function ‘main’:
+source.c:17:9: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+         gets(L);
+         ^
+source.c:18:9: warning: implicit declaration of function ‘ubahstring’ [-Wimplicit-function-declaration]
+         l=ubahstring();
+         ^
+source.c:19:9: warning: implicit declaration of function ‘cekmitos’ [-Wimplicit-function-declaration]
+         hasil[i]=cekmitos();
+         ^
+source.c:21:13: warning: implicit declaration of function ‘result’ [-Wimplicit-function-declaration]
+             hasil[i]=result(G,l,H);
+             ^
+/tmp/ccH5DvTz.o: In function `main':
+source.c:(.text.startup+0x6a): warning: the `gets' function is dangerous and should not be used.

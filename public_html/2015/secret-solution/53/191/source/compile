@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:32:3: warning: implicit declaration of function ‘bSort1’ [-Wimplicit-function-declaration]
+   bSort1(n);
+   ^
+source.c:33:3: warning: implicit declaration of function ‘bSort2’ [-Wimplicit-function-declaration]
+   bSort2(m);
+   ^
+/tmp/cc3cAgwu.o: In function `main':
+source.c:(.text.startup+0xa9): undefined reference to `bSort1'
+source.c:(.text.startup+0xb4): undefined reference to `bSort2'
+collect2: error: ld returned 1 exit status

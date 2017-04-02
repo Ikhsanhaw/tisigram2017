@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:10:2: error: unknown type name ‘bool’
+  bool hasil[cases];
+  ^
+source.c:14:13: error: ‘false’ undeclared (first use in this function)
+    hasil[c]=false;
+             ^
+source.c:14:13: note: each undeclared identifier is reported only once for each function it appears in
+source.c:16:13: error: ‘true’ undeclared (first use in this function)
+    hasil[c]=true;
+             ^

@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:21:5: warning: implicit declaration of function ‘pal’ [-Wimplicit-function-declaration]
+     if(pal(x,y)==0){
+     ^

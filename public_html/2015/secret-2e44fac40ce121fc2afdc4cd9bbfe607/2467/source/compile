@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:9:28: error: expected ‘;’ before ‘mod’
+       hasil=(angka^(angka))mod 2;
+                            ^

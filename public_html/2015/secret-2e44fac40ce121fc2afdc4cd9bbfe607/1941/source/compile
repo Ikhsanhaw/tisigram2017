@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:4:7: warning: integer constant is so large that it is unsigned
+     s=18446744073709551615;
+       ^
+source.c:4:7: warning: large integer implicitly truncated to unsigned type [-Woverflow]

@@ -1,0 +1,8 @@
+source.c: In function ‘main’:
+source.c:8:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(text);
+  ^
+source.c:12:10: error: ‘strlen’ undeclared (first use in this function)
+  while(i<strlen[kata]){
+          ^
+source.c:12:10: note: each undeclared identifier is reported only once for each function it appears in

@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:19:5: warning: implicit declaration of function ‘system’ [-Wimplicit-function-declaration]
+     system("pause");
+     ^

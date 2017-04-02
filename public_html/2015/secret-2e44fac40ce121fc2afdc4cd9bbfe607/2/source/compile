@@ -1,0 +1,8 @@
+source.c: In function ‘main’:
+source.c:13:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(text);
+  ^
+source.c:13:7: error: ‘text’ undeclared (first use in this function)
+  gets(text);
+       ^
+source.c:13:7: note: each undeclared identifier is reported only once for each function it appears in

@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:24:2: warning: implicit declaration of function ‘TglAkhir’ [-Wimplicit-function-declaration]
+  while(D.Tgl>TglAkhir(D)){
+  ^

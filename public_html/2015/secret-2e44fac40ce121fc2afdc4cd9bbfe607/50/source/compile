@@ -1,0 +1,10 @@
+source.c:4:1: error: unknown type name ‘using’
+ using namespace std;
+ ^
+source.c:4:17: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘std’
+ using namespace std;
+                 ^
+source.c: In function ‘main’:
+source.c:8:2: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
+  strrev(karakter);
+  ^

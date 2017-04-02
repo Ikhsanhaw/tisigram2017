@@ -1,0 +1,22 @@
+[$Version]
+update_info=kded.upd:kde3.0,kdeui.upd:kde4/migrate_from_kde3_icon_theme,kaccel.upd:kde3.3/r1,mouse_cursor_theme.upd:kde3.4.99,kwin.upd:kde3.2Xinerama
+
+[General]
+widgetStyle=oxygen
+
+[KDE]
+ShowIconsInMenuItems=true
+ShowIconsOnPushButtons=true
+
+[KDE-Global GUI Settings]
+GraphicEffectsLevel=0
+
+[Toolbar style]
+ToolButtonStyle=TextBesideIcon
+ToolButtonStyleOtherToolbars=TextBesideIcon
+
+[Windows]
+XineramaEnabled=
+XineramaMaximizeEnabled=
+XineramaMovementEnabled=
+XineramaPlacementEnabled=

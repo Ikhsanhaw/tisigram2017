@@ -1,0 +1,21 @@
+source.c:5:7: error: expected declaration specifiers or ‘...’ before string constant
+ scanf("%d", N);
+       ^
+source.c:5:13: error: expected declaration specifiers or ‘...’ before ‘N’
+ scanf("%d", N);
+             ^
+source.c:6:1: error: expected identifier or ‘(’ before ‘if’
+ if (N>100)
+ ^
+source.c:9:1: error: expected identifier or ‘(’ before ‘else’
+ else if(N<0)
+ ^
+source.c:12:1: error: expected identifier or ‘(’ before ‘for’
+ for(i=0;i<N;i++){
+ ^
+source.c:12:10: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘<’ token
+ for(i=0;i<N;i++){
+          ^
+source.c:12:14: error: expected ‘=’, ‘,’, ‘;’, ‘asm’ or ‘__attribute__’ before ‘++’ token
+ for(i=0;i<N;i++){
+              ^

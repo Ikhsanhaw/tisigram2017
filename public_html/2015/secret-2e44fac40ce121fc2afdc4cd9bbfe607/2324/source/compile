@@ -1,0 +1,11 @@
+source.c: In function ‘main’:
+source.c:5:4: error: unknown type name ‘bool’
+    bool t = true;
+    ^
+source.c:5:13: error: ‘true’ undeclared (first use in this function)
+    bool t = true;
+             ^
+source.c:5:13: note: each undeclared identifier is reported only once for each function it appears in
+source.c:24:25: error: ‘false’ undeclared (first use in this function)
+                     t = false;
+                         ^

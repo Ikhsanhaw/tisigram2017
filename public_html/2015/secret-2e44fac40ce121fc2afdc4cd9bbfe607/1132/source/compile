@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:23:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  panjang=sqrt(abs(titik.x-pusat.x)*abs(titik.x-pusat.x)+abs(titik.y-pusat.y)*abs(titik.y-pusat.y));
+  ^

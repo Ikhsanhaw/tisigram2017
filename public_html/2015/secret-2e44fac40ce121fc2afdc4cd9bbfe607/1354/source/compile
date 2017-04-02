@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: implicit declaration of function ‘mod’ [-Wimplicit-function-declaration]
+  printf("%d %d\n", n/j, mod(n,j));
+  ^
+/tmp/ccYxLzV3.o: In function `main':
+source.c:(.text.startup+0x31): undefined reference to `mod'
+collect2: error: ld returned 1 exit status

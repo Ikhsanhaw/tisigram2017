@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:8:2: warning: implicit declaration of function ‘exit’ [-Wimplicit-function-declaration]
+  if(lvl>10) exit(2);
+  ^
+source.c:8:13: warning: incompatible implicit declaration of built-in function ‘exit’
+  if(lvl>10) exit(2);
+             ^

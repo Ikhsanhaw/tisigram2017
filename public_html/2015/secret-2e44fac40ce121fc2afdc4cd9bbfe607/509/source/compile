@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:13: error: expected identifier before ‘&’ token
+  scanf("%d".&N);
+             ^

@@ -1,0 +1,4 @@
+source.c: In function ‘addDay’:
+source.c:19:3: warning: implicit declaration of function ‘getDay’ [-Wimplicit-function-declaration]
+   temp = getDay(*L);
+   ^

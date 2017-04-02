@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:2: warning: implicit declaration of function ‘toupper’ [-Wimplicit-function-declaration]
+  int x = (int)toupper(input[0])-65;
+  ^

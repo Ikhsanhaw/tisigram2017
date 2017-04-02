@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:9:5: error: stray ‘\’ in program
+     printf("%d", i\n);
+     ^
+source.c:9:20: error: expected ‘)’ before ‘n’
+     printf("%d", i\n);
+                    ^

@@ -1,0 +1,8 @@
+Free Pascal Compiler version 3.0.0 [2015/12/05] for x86_64
+Copyright (c) 1993-2015 by Florian Klaempfl and others
+Target OS: Linux for x86-64
+Compiling source.pas
+source.pas(29,10) Warning: Function result does not seem to be set
+source.pas(60,4) Fatal: Syntax error, ";" expected but "." found
+Fatal: Compilation aborted
+Error: /usr/bin/ppcx64 returned an error exitcode

@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:7:3: warning: implicit declaration of function ‘tolower’ [-Wimplicit-function-declaration]
+   x=tolower(x);
+   ^

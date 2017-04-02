@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: implicit declaration of function ‘strrev’ [-Wimplicit-function-declaration]
+  strrev(karakter);
+  ^
+/tmp/cceXJZNH.o: In function `main':
+source.c:(.text.startup+0x19): undefined reference to `strrev'
+collect2: error: ld returned 1 exit status

@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:13:2: warning: implicit declaration of function ‘abs’ [-Wimplicit-function-declaration]
+  p = sqrt(abs(x2-x1) * abs(x2-x1) + abs(y2-y1) * abs(y2-y1));
+  ^

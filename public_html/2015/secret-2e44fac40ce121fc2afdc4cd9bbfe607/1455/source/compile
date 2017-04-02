@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:12:7: error: array size missing in ‘text’
+  char text[];
+       ^
+source.c:13:7: error: array size missing in ‘find’
+  char find[];
+       ^

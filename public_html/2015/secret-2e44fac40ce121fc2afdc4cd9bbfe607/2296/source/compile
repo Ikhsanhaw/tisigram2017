@@ -1,0 +1,18 @@
+source.c: In function ‘main’:
+source.c:11:15: error: expected ‘;’ before ‘)’ token
+     for(A<=500){
+               ^
+source.c:11:15: error: expected expression before ‘)’ token
+source.c:13:8: warning: implicit declaration of function ‘prinf’ [-Wimplicit-function-declaration]
+        prinf("%d",i);
+        ^
+source.c:17:8: error: expected ‘}’ before ‘else’
+        else
+        ^
+source.c: At top level:
+source.c:21:8: error: expected identifier or ‘(’ before ‘return’
+        return 0;
+        ^
+source.c:22:1: error: expected identifier or ‘(’ before ‘}’ token
+ }
+ ^

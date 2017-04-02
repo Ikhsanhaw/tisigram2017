@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:6:18: error: expected ‘)’ before ‘mod’
+ if(i==1+2+3 || i mod 2=0 || i mod 3= 0|| i mod 1=0)
+                  ^
+source.c:14:1: error: expected declaration or statement at end of input
+ }
+ ^

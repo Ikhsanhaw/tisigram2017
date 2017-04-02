@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:22:5: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+     for(j=strlen(teks[i].A)-1;j>=0;j--){
+     ^
+source.c:22:11: warning: incompatible implicit declaration of built-in function ‘strlen’
+     for(j=strlen(teks[i].A)-1;j>=0;j--){
+           ^

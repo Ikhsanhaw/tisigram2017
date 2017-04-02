@@ -1,0 +1,5 @@
+source.c: In function ‘main’:
+source.c:6:16: error: expected ‘;’ before ‘)’ token
+     for (N<=100)
+                ^
+source.c:6:16: error: expected expression before ‘)’ token

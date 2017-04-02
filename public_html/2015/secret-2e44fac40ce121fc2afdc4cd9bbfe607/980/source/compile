@@ -1,0 +1,21 @@
+source.c:4:1: warning: return type defaults to ‘int’
+ main(){
+ ^
+/tmp/ccFBAHIh.o: In function `main':
+source.c:(.text.startup+0x16): relocation truncated to fit: R_X86_64_PC32 against symbol `q' defined in COMMON section in /tmp/ccFBAHIh.o
+source.c:(.text.startup+0x1c): relocation truncated to fit: R_X86_64_PC32 against symbol `i' defined in COMMON section in /tmp/ccFBAHIh.o
+source.c:(.text.startup+0x4a): relocation truncated to fit: R_X86_64_PC32 against symbol `i' defined in COMMON section in /tmp/ccFBAHIh.o
+source.c:(.text.startup+0x60): relocation truncated to fit: R_X86_64_PC32 against symbol `q' defined in COMMON section in /tmp/ccFBAHIh.o
+source.c:(.text.startup+0x66): relocation truncated to fit: R_X86_64_PC32 against symbol `i' defined in COMMON section in /tmp/ccFBAHIh.o
+source.c:(.text.startup+0x93): relocation truncated to fit: R_X86_64_PC32 against symbol `i' defined in COMMON section in /tmp/ccFBAHIh.o
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(findlocale.o): In function `_nl_find_locale':
+(.text+0x242): relocation truncated to fit: R_X86_64_32S against symbol `_nl_locale_file_list' defined in COMMON section in /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(findlocale.o)
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(findlocale.o): In function `_nl_remove_locale':
+(.text+0x543): relocation truncated to fit: R_X86_64_32S against symbol `_nl_locale_file_list' defined in COMMON section in /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(findlocale.o)
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(vfprintf.o): In function `_IO_vfprintf_internal':
+(.text+0x1bb): relocation truncated to fit: R_X86_64_PC32 against symbol `__libc_multiple_threads' defined in COMMON section in /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(libc_multiple_threads.o)
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(vfprintf.o): In function `_IO_vfprintf_internal':
+(.text+0x28a): relocation truncated to fit: R_X86_64_PC32 against symbol `__libc_multiple_threads' defined in COMMON section in /usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(libc_multiple_threads.o)
+/usr/lib/gcc/x86_64-linux-gnu/4.9/../../../x86_64-linux-gnu/libc.a(vfprintf.o): In function `_IO_vfprintf_internal':
+(.text+0x2ef): additional relocation overflows omitted from the output
+collect2: error: ld returned 1 exit status

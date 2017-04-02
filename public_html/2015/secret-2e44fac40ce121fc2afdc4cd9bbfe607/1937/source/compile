@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:11:37: warning: iteration 5u invokes undefined behavior [-Waggressive-loop-optimizations]
+             jumlah[i]=jumlah[i]+y[i][j];
+                                     ^
+source.c:9:9: note: containing loop
+         for(j=1;j<=6;j++){
+         ^

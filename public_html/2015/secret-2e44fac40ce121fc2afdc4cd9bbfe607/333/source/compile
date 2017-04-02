@@ -1,0 +1,6 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(kalimat);
+  ^
+/tmp/ccytMhc6.o: In function `main':
+source.c:(.text.startup+0xc): warning: the `gets' function is dangerous and should not be used.

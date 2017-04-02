@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:10:5: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
+     getch();
+     ^

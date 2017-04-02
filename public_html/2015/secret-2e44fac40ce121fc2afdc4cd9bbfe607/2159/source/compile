@@ -1,0 +1,10 @@
+source.c:4:21: warning: integer constant is so large that it is unsigned
+ const long long o = 18446744073709551615;
+                     ^
+source.c: In function ‘main’:
+source.c:23:5: warning: implicit declaration of function ‘getch’ [-Wimplicit-function-declaration]
+     getch();
+     ^
+/tmp/ccBgEXAy.o: In function `main':
+source.c:(.text.startup+0xbb): undefined reference to `getch'
+collect2: error: ld returned 1 exit status

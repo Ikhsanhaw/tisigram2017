@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:30:25: error: expected ‘)’ before ‘{’ token
+   while((j>=0) && (!ada){
+                         ^
+source.c:46:2: error: expected expression before ‘}’ token
+  }
+  ^

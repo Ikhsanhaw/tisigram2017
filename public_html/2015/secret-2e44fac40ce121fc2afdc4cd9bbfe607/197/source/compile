@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:6:9: error: expected expression before ‘{’ token
+  hari = {Kamis, Jumat, Sabtu, Minggu, Senin, Selasa, Rabu};
+         ^

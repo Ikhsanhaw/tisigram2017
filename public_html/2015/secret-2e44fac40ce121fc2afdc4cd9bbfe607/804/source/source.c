@@ -1,0 +1,13 @@
+#include <stdio.h>
+
+int main(){
+	int S, M;
+	scanf("%d\n%d",&S,&M);
+	if(S>=M){
+		printf("PERANG\n");
+	}
+	else {
+		printf("MUNDUR\n");
+	}
+	return 0;
+}

@@ -1,0 +1,4 @@
+source.c:1:18: fatal error: cstdio: No such file or directory
+ #include <cstdio>
+                  ^
+compilation terminated.

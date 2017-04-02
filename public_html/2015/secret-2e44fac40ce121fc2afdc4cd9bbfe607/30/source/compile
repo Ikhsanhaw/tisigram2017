@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:9:21: error: expected ‘)’ before 'i'
+  }else if (karakter 'i' || karakter=='I')
+                     ^

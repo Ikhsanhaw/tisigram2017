@@ -1,0 +1,4 @@
+source.c: In function ‘main’:
+source.c:8:2: error: expected ‘;’ before ‘printf’
+  printf("%.2f\n", (9*celc)/5);
+  ^

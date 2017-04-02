@@ -1,0 +1,7 @@
+source.c: In function ‘main’:
+source.c:7:5: warning: implicit declaration of function ‘fmod’ [-Wimplicit-function-declaration]
+     if(hasil != X || hasil <= 0 || fmod(hasil,1) != 0)
+     ^
+source.c:7:36: warning: incompatible implicit declaration of built-in function ‘fmod’
+     if(hasil != X || hasil <= 0 || fmod(hasil,1) != 0)
+                                    ^

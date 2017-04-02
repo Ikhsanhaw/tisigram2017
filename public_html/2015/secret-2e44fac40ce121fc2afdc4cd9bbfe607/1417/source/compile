@@ -1,0 +1,18 @@
+source.c: In function ‘main’:
+source.c:7:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(A);
+  ^
+source.c:8:2: warning: ‘gets’ is deprecated (declared at /usr/include/stdio.h:638) [-Wdeprecated-declarations]
+  gets(B);
+  ^
+source.c:10:2: warning: implicit declaration of function ‘strlen’ [-Wimplicit-function-declaration]
+  for(i=0;i<=strlen(A)-strlen(B);i++){
+  ^
+source.c:10:13: warning: incompatible implicit declaration of built-in function ‘strlen’
+  for(i=0;i<=strlen(A)-strlen(B);i++){
+             ^
+source.c:16:3: warning: implicit declaration of function ‘strcmp’ [-Wimplicit-function-declaration]
+   if(strcmp(B,C)==0){
+   ^
+/tmp/ccO5lpii.o: In function `main':
+source.c:(.text.startup+0x1e): warning: the `gets' function is dangerous and should not be used.

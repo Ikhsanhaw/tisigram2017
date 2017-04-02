@@ -1,0 +1,61 @@
+source.c: In function ‘skillguild’:
+source.c:34:21: warning: multi-character character constant [-Wmultichar]
+   case 2:  { return 'E+'; break;}
+                     ^
+source.c:34:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 2:  { return 'E+'; break;}
+              ^
+source.c:35:21: warning: multi-character character constant [-Wmultichar]
+   case 3:  { return 'D-'; break;}
+                     ^
+source.c:35:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 3:  { return 'D-'; break;}
+              ^
+source.c:37:21: warning: multi-character character constant [-Wmultichar]
+   case 5:  { return 'D+'; break;}
+                     ^
+source.c:37:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 5:  { return 'D+'; break;}
+              ^
+source.c:38:21: warning: multi-character character constant [-Wmultichar]
+   case 6:  { return 'C-'; break;}
+                     ^
+source.c:38:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 6:  { return 'C-'; break;}
+              ^
+source.c:40:21: warning: multi-character character constant [-Wmultichar]
+   case 8:  { return 'C+'; break;}
+                     ^
+source.c:40:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 8:  { return 'C+'; break;}
+              ^
+source.c:41:21: warning: multi-character character constant [-Wmultichar]
+   case 9:  { return 'B-'; break;}
+                     ^
+source.c:41:14: warning: overflow in implicit constant conversion [-Woverflow]
+   case 9:  { return 'B-'; break;}
+              ^
+source.c:43:22: warning: multi-character character constant [-Wmultichar]
+   case 11:  { return 'B+'; break;}
+                      ^
+source.c:43:15: warning: overflow in implicit constant conversion [-Woverflow]
+   case 11:  { return 'B+'; break;}
+               ^
+source.c:44:22: warning: multi-character character constant [-Wmultichar]
+   case 12:  { return 'A-'; break;}
+                      ^
+source.c:44:15: warning: overflow in implicit constant conversion [-Woverflow]
+   case 12:  { return 'A-'; break;}
+               ^
+source.c:46:22: warning: multi-character character constant [-Wmultichar]
+   case 14:  { return 'A+'; break;}
+                      ^
+source.c:46:15: warning: overflow in implicit constant conversion [-Woverflow]
+   case 14:  { return 'A+'; break;}
+               ^
+source.c:47:22: warning: multi-character character constant [-Wmultichar]
+   case 15:  { return 'S-'; break;}
+                      ^
+source.c:47:15: warning: overflow in implicit constant conversion [-Woverflow]
+   case 15:  { return 'S-'; break;}
+               ^
