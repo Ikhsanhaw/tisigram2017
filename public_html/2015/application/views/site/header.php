@@ -21,6 +21,13 @@
 			<div class="row">
 				<div class="col-md-12">
 					<ul class="nav navbar-nav">
+						<li>
+							<a href="<?php echo base_url();?>index.php/site">
+							<?php if ($page == 'login') : ?>
+								<i class="glyphicon glyphicon-home"></i> Home
+							<?php endif; ?>
+							</a>
+						</li>
 						<li class="active">
 							<a href="#">
 							<?php if ($page == 'login') : ?>

@@ -31,7 +31,7 @@ class Site extends MY_Controller
 		else if ($this->identity->is_admin())
 			redirect('admin/dashboard');
 		else
-			redirect('site/login');
+			redirect('site/register');
 	}
 
 	/**
@@ -75,6 +75,10 @@ class Site extends MY_Controller
 			$this->load->view('site/login', $this->ui['content']);
 			$this->load->view('footer', $this->ui['footer']);
 		}
+	}
+
+	public function register(){
+		$this->load->view('home/register');
 	}
 
 	/**
