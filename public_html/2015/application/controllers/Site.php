@@ -78,7 +78,69 @@ class Site extends MY_Controller
 	}
 
 	public function register(){
-		$this->load->view('home/register');
+		// $this->load->library('email');
+		// $config = array(
+		//     'protocol' => 'smtp',
+		//     'smtp_host' => 'ssl://smtp.gmail.com',
+		//     'smtp_port' => 465,
+		//     'smtp_user' => '',
+		//     'smtp_pass' => '',
+		//     'charset'   => 'iso-8859-1'
+		// );
+
+		// $this->email->initialize($config);
+		// $this->email->from('nurhakimdyas@gmail.com', 'Dyas Nurhakim');
+		// $this->email->to('dyassudiana@gmail.com');
+
+		// $this->email->subject('Email Test');
+		// $this->email->message('Testing the email class.');
+
+		// if ( ! $this->email->send()){
+		// 	        echo show_error($this->email->print_debugger());
+		// 	}
+
+		if ($this->input->post()){
+			$nim = $this->input->post('nim');
+			$data = $this->register->getOne(array('username'=>$nim));
+			if(empty($data)){
+				$nama = $this->input->post('nama');
+				$telp = $this->input->post('telp');
+				$email = $this->input->post('email');
+				$institusi = $this->input->post('institusi');
+				$characters = 'abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMOPQRSTUVWXYZ0123456789';
+				$password = '';
+				$max = strlen($characters) - 1;
+				for ($i = 0; $i < 8; $i++) {
+					$password .= $characters[mt_rand(0, $max)];
+				}
+
+				$field = array(
+	        		'name'			=> $nama,
+	        		'username'		=> $nim,
+	        		'password'		=> md5($password),
+	        		'notelp'		=> $telp,
+	        		'email'			=> $email,
+	        		'institution'	=> $institusi,
+	        		'last_activity'	=> date('Y-m-d h:i:s'),
+	        		'category_id'	=> 12
+	        	);
+	        	if($this->register->add($field)){
+	        		echo "<script>alert('Selamat Anda sudah terdaftar. Username : ".$nim." Password : ".$password." ')</script>";
+					echo "<meta http-equiv='refresh' content='0;url=".base_url()."index.php/site/register'>";
+	        	} else {
+	        		echo "<script>alert('Pendaftaran Gagal Silahkan Coba Lagi :) ')</script>";
+					echo "<meta http-equiv='refresh' content='0;url=".base_url()."index.php/site/register'>";
+	        	}
+
+				
+			} else {
+				echo "<script>alert('Maaf NIM Anda sudah terdaftar :) ')</script>";
+				echo "<meta http-equiv='refresh' content='0;url=".base_url()."index.php/site/register'>";
+			}
+			
+		} else {
+			$this->load->view('home/register');
+		}
 	}
 
 	/**
